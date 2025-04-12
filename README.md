@@ -94,10 +94,6 @@ python scripts/export_onnx_model.py --checkpoint <path/to/checkpoint> --model-ty
 
 See the [example notebook](https://github.com/facebookresearch/segment-anything/blob/main/notebooks/onnx_model_example.ipynb) for details on how to combine image preprocessing via SAM's backbone with mask prediction using the ONNX model. It is recommended to use the latest stable version of PyTorch for ONNX export.
 
-### Web demo
-
-The `demo/` folder has a simple one page React app which shows how to run mask prediction with the exported ONNX model in a web browser with multithreading. Please see [`demo/README.md`](https://github.com/facebookresearch/segment-anything/blob/main/demo/README.md) for more details.
-
 ## <a name="Models"></a>Model Checkpoints
 
 Three model versions of the model are available with different backbone sizes. These models can be instantiated by running
